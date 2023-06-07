@@ -1,0 +1,38 @@
+.card{
+    width: 210px;
+    margin: 20px;
+    /* z-index: 1000; */
+    transition: all ease-out .2s;
+    position: relative;
+}
+.card:hover{
+    scale: 1.1;
+}
+.card-img-top{
+    width: 210px;
+        height: 295px;
+}
+.overlay{
+    position: absolute;
+    width: 210px;
+    height: 120px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    overflow: hidden;
+    bottom: 0;
+    z-index: 1000;
+    text-align: center;
+}
+.btn{
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px white;
+    font-size: 13px;
+}
+.btn:hover{
+    font-weight: bold;
+    border: 1px solid white;}
+.btn:active {
+    font-weight: normal;
+}

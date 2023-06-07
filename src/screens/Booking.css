@@ -1,0 +1,35 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+    width: 100%;
+    
+}
+form{
+    width: 40%;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px black;
+}
+.submit{
+    width: 100%;
+    margin-top: 15px;
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+
+
+}
+.submit:hover{
+  font-weight: normal;
+  box-shadow: 1px 1px 1px black;
+ 
+}
+.submit:active{
+    font-weight: bold;
+}
